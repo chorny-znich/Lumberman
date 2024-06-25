@@ -1,11 +1,9 @@
-//=================================================================================================
-//	Common headers and shared data																===
-//=================================================================================================
-
 #pragma once
-
 #include <DisRealityGF.h>
 
+/**
+ * @brief Common headers and shared data
+*/
 namespace gd
 {
 	enum class Screens

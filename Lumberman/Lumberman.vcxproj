@@ -66,6 +66,9 @@
     <ClCompile Include="tree.cpp" />
     <ClCompile Include="wood_log.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\sound_list.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
