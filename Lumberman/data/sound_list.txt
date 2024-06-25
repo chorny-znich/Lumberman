@@ -1,0 +1,6 @@
+Chop
+assets/sound/chop.wav
+Death
+assets/sound/death.wav
+OutOfTime
+assets/sound/out_of_time.wav
