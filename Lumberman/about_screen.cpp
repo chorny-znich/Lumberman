@@ -11,6 +11,10 @@ void AboutScreen::init()
   mButtons.push_back(buttonBack);
 }
 
+void AboutScreen::inputHandler(sf::Vector2i position, sf::RenderWindow* window)
+{
+}
+
 void AboutScreen::inputHandler(sf::Keyboard::Key key, bool isPressed)
 {
 }

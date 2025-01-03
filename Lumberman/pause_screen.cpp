@@ -10,6 +10,10 @@ void PauseScreen::init()
 	mScreenState = State::START;
 }
 
+void PauseScreen::inputHandler(sf::Vector2i position, sf::RenderWindow* window)
+{
+}
+
 void PauseScreen::inputHandler(sf::Keyboard::Key key, bool isPressed)
 {
 	if (key == sf::Keyboard::Return && isPressed)

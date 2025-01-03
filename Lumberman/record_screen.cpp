@@ -32,6 +32,10 @@ void RecordScreen::init()
 	}
 }
 
+void RecordScreen::inputHandler(sf::Vector2i position, sf::RenderWindow* window)
+{
+}
+
 void RecordScreen::inputHandler(sf::Keyboard::Key key, bool isPressed)
 {/*
 	if (key == sf::Keyboard::Y && isPressed)

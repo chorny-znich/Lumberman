@@ -15,6 +15,7 @@ private:
 
 public:
 	virtual void init() override;
+	virtual void inputHandler(sf::Vector2i position, sf::RenderWindow* window) override;
 	virtual void inputHandler(sf::Keyboard::Key, bool isPressed) override;
 	virtual void inputHandler(sf::Mouse::Button, bool isPressed, sf::Vector2i position, sf::RenderWindow* window) override;
 	virtual void update(sf::Time dt) override;

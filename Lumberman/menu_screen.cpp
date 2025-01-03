@@ -15,6 +15,10 @@ void MenuScreen::init()
   mButtons.push_back(buttonExit);*/
 }
 
+void MenuScreen::inputHandler(sf::Vector2i position, sf::RenderWindow* window)
+{
+}
+
 void MenuScreen::inputHandler(sf::Keyboard::Key key, bool isPressed)
 {
 }

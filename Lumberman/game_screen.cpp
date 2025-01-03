@@ -30,6 +30,10 @@ void GameScreen::init()
 	mGui.init();
 }
 
+void GameScreen::inputHandler(sf::Vector2i position, sf::RenderWindow* window)
+{
+}
+
 void GameScreen::inputHandler(sf::Keyboard::Key key, bool isPressed)
 {
 	if (mPlaying)
