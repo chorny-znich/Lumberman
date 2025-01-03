@@ -2,21 +2,13 @@
 
 void AboutScreen::init()
 {
-	sf::Text description = dr::TextManager::get("description");
-	description.setPosition(200, 500);
-	mInfo.push_back(description);
+  sf::Text aboutInfo = dr::TextManager::get("AboutText_1");
+	aboutInfo.setPosition(200, 500);
+  mInfo.push_back(aboutInfo);
 
-	sf::Text version = dr::TextManager::get("version");
-	version.setPosition(900, 600);
-	mInfo.push_back(version);
-
-  dr::Button buttonBack( { 200, 75 }, dr::TextManager::get("back_button"));
+  dr::Button buttonBack( { 200, 75 }, dr::TextManager::get("BackButton"));
 	buttonBack.setPosition({ 900, 1000 });
   mButtons.push_back(buttonBack);
-}
-
-void AboutScreen::inputHandler(sf::Vector2i position, sf::RenderWindow* window)
-{
 }
 
 void AboutScreen::inputHandler(sf::Keyboard::Key key, bool isPressed)

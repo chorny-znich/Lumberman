@@ -5,18 +5,14 @@
 
 void MenuScreen::init()
 {
-  mBackground.setTexture(dr::Textures::get("menu_screen_background"));
-	
-  dr::Button buttonAbout( { 200, 75 }, dr::TextManager::get("about_button"));
+  mBackground.setTexture(dr::Textures::get("MenuScreenBackground"));
+	/*
+  dr::Button buttonAbout( { 200, 75 }, dr::TextManager::get("AboutButton"));
 	buttonAbout.setPosition({ 900, 800 });
   mButtons.push_back(buttonAbout);
-  dr::Button buttonExit( { 200, 75 }, dr::TextManager::get("exit_button"));
+  dr::Button buttonExit( { 200, 75 }, dr::TextManager::get("ExitButton"));
 	buttonExit.setPosition( { 900, 900 } );
-  mButtons.push_back(buttonExit);
-}
-
-void MenuScreen::inputHandler(sf::Vector2i position, sf::RenderWindow* window)
-{
+  mButtons.push_back(buttonExit);*/
 }
 
 void MenuScreen::inputHandler(sf::Keyboard::Key key, bool isPressed)
