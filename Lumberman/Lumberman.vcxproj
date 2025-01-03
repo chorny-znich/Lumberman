@@ -181,7 +181,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="about_screen.cpp" />
-    <ClCompile Include="AppTemplate.cpp" />
     <ClCompile Include="audio_player.cpp" />
     <ClCompile Include="axe.cpp" />
     <ClCompile Include="bee.cpp" />
@@ -201,7 +200,6 @@
     <ClCompile Include="level.cpp" />
     <ClCompile Include="level_manager.cpp" />
     <ClCompile Include="Lumberman.cpp" />
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="menu_screen.cpp" />
     <ClCompile Include="pause_screen.cpp" />
     <ClCompile Include="player.cpp" />

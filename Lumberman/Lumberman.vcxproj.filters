@@ -119,9 +119,6 @@
     <ClCompile Include="game.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="menu_screen.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -141,9 +138,6 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="imgui\imgui-SFML.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="AppTemplate.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="audio_player.cpp">
