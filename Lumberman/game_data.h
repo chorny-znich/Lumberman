@@ -6,7 +6,10 @@
 namespace GameData {
   enum class Screens {
     MENU,
-    ABOUT
+    ABOUT,
+    GAME,
+    PAUSE,
+    RECORD
   };
 
   /**
@@ -14,6 +17,7 @@ namespace GameData {
   */
   inline namespace path {
     const std::string TextureListFile{ R"(data/texture_list.ini)" };
+    const std::string SoundListFile{R"(data/sound_list.ini)"};
     const std::string FontListFile{ R"(data/font_list.ini)" };
   }
 

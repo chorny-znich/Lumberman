@@ -7,7 +7,7 @@ void Game::createStartScreen()
 {
   ScreenManager::createScreen(GameData::Screens::MENU);
 }
-
+/*
 void Game::init() 
 {
   try {
@@ -17,7 +17,8 @@ void Game::init()
   catch (const std::runtime_error& err) {
     std::cout << err.what() << std::endl;
   }
-  sf::Font& mainFont = dr::Fonts::get("main");
+  sf::Font& mainFont = dr::Fonts::get("Main");
+  //dr::Fonts::load("Main", "assets/font/brushtype.ttf");
 
   // sf::Text object for the buttons
   sf::Text buttonText;
@@ -26,11 +27,11 @@ void Game::init()
   buttonText.setFillColor(sf::Color::Black);
 
   buttonText.setString("About");
-  dr::TextManager::load("about_button", buttonText);
+  dr::TextManager::load("AboutButton", buttonText);
   buttonText.setString("Exit");
-  dr::TextManager::load("exit_button", buttonText);
+  dr::TextManager::load("ExitButton", buttonText);
   buttonText.setString("Back");
-  dr::TextManager::load("back_button", buttonText);
+  dr::TextManager::load("BackButton", buttonText);
 
   // sf::Text object for text on the about screen
   sf::Text aboutText;
@@ -39,9 +40,5 @@ void Game::init()
   aboutText.setFillColor(sf::Color::Black);
 
   aboutText.setString("This is a template for all apps build on the DisReality game framework");
-  dr::TextManager::load("description", aboutText);
-
-  aboutText.setCharacterSize(25);
-  aboutText.setString("version 0.1.0");
-  dr::TextManager::load("version", aboutText);
-}
+  dr::TextManager::load("AboutText_1", aboutText);
+}*/
