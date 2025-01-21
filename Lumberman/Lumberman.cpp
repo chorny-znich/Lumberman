@@ -1,8 +1,7 @@
 //=================================================================================================
 //	Lumberman																					===
-//	Version 1.1 build 1																			===
-//	Refactoring the Timber game code from the "Beginning c++ game programming" textbook			===
-//	followed by finalization to a full-fledged game using the DisRealityGF framework			===
+//	Version 0.1.1																				===
+//	The arcade game about a lumberman who chops down trees developed on the DisRealityGF		===
 //=================================================================================================
 
 #include "game.h"
