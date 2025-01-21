@@ -148,8 +148,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="about_screen.h" />
+    <ClInclude Include="audio_player.h" />
+    <ClInclude Include="axe.h" />
+    <ClInclude Include="bee.h" />
+    <ClInclude Include="branch.h" />
+    <ClInclude Include="cloud.h" />
     <ClInclude Include="game.h" />
     <ClInclude Include="game_data.h" />
+    <ClInclude Include="game_screen.h" />
+    <ClInclude Include="game_stats.h" />
+    <ClInclude Include="gravestone.h" />
+    <ClInclude Include="gui.h" />
     <ClInclude Include="imgui\imconfig-SFML.h" />
     <ClInclude Include="imgui\imconfig.h" />
     <ClInclude Include="imgui\imgui-SFML.h" />
@@ -159,20 +168,45 @@
     <ClInclude Include="imgui\imstb_rectpack.h" />
     <ClInclude Include="imgui\imstb_textedit.h" />
     <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="level.h" />
+    <ClInclude Include="level_manager.h" />
+    <ClInclude Include="Lumberman.h" />
     <ClInclude Include="menu_screen.h" />
+    <ClInclude Include="pause_screen.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="record_screen.h" />
     <ClInclude Include="screen_manager.h" />
+    <ClInclude Include="tree.h" />
+    <ClInclude Include="wood_log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="about_screen.cpp" />
+    <ClCompile Include="audio_player.cpp" />
+    <ClCompile Include="axe.cpp" />
+    <ClCompile Include="bee.cpp" />
+    <ClCompile Include="branch.cpp" />
+    <ClCompile Include="cloud.cpp" />
     <ClCompile Include="game.cpp" />
+    <ClCompile Include="game_screen.cpp" />
+    <ClCompile Include="game_stats.cpp" />
+    <ClCompile Include="gravestone.cpp" />
+    <ClCompile Include="gui.cpp" />
     <ClCompile Include="imgui\imgui-SFML.cpp" />
     <ClCompile Include="imgui\imgui.cpp" />
     <ClCompile Include="imgui\imgui_draw.cpp" />
     <ClCompile Include="imgui\imgui_tables.cpp" />
     <ClCompile Include="imgui\imgui_widgets.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="init.cpp" />
+    <ClCompile Include="level.cpp" />
+    <ClCompile Include="level_manager.cpp" />
+    <ClCompile Include="Lumberman.cpp" />
     <ClCompile Include="menu_screen.cpp" />
+    <ClCompile Include="pause_screen.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="record_screen.cpp" />
     <ClCompile Include="screen_manager.cpp" />
+    <ClCompile Include="tree.cpp" />
+    <ClCompile Include="wood_log.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="data\font_list.ini" />
