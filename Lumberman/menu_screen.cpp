@@ -44,9 +44,12 @@ void MenuScreen::inputHandler(sf::Mouse::Button button, bool isPressed, sf::Vect
 	switch (buttonIndex)
 	{
 	case 0:
-		ScreenManager::createScreen(GameData::Screens::ABOUT);
+		ScreenManager::createScreen(GameData::Screens::GAME);
 		break;
 	case 1:
+		ScreenManager::createScreen(GameData::Screens::ABOUT);
+		break;
+	case 2:
 		dr::GameState::destroyScreen();
 		break;
 	}
