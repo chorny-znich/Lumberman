@@ -102,9 +102,6 @@
     <ClInclude Include="player.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="record_screen.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="tree.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
@@ -116,6 +113,9 @@
     </ClInclude>
     <ClInclude Include="game_data.h">
       <Filter>Файлы заголовков\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="record_screen.h">
+      <Filter>Файлы заголовков\Screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -188,9 +188,6 @@
     <ClCompile Include="player.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="record_screen.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="tree.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -200,12 +197,18 @@
     <ClCompile Include="menu_screen.cpp">
       <Filter>Исходные файлы\Screen</Filter>
     </ClCompile>
+    <ClCompile Include="record_screen.cpp">
+      <Filter>Исходные файлы\Screen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="data\texture_list.ini">
       <Filter>Файлы ресурсов</Filter>
     </None>
     <None Include="data\font_list.ini">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="config\engine_config.ini">
       <Filter>Файлы ресурсов</Filter>
     </None>
   </ItemGroup>

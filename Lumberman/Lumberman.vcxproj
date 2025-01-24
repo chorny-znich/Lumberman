@@ -209,6 +209,7 @@
     <ClCompile Include="wood_log.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="config\engine_config.ini" />
     <None Include="data\font_list.ini" />
     <None Include="data\texture_list.ini" />
   </ItemGroup>

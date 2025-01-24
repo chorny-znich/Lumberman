@@ -4,7 +4,7 @@
 #include "Lumberman.h"
 
 /**
- * @brief Show list of 5 best result
+ * @brief Show the list of 5 best results
 */
 class RecordScreen : public dr::Screen
 {
