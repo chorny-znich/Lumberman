@@ -19,7 +19,7 @@ void RecordScreen::init()
 		positionY += SHIFT;
 	}
 	// Add 5 best record as sf::Text objects
-/*	positionY = 160.f;
+	positionY = 160.f;
 	const std::array<size_t, NUM_RECORD_STRINGS> records = GameStats::getRecords();
 
 	for (size_t i = 0; i < mRecordText.size(); ++i)
@@ -29,7 +29,7 @@ void RecordScreen::init()
 		mRecordText[i] = dr::TextManager::get("RecordValue");
 		mRecordText[i].setString(oss.str());
 		mRecordText[i].setPosition({ 900.f, positionY + i * SHIFT });
-	}*/
+	}
 }
 
 void RecordScreen::inputHandler(sf::Vector2i position, sf::RenderWindow* window)

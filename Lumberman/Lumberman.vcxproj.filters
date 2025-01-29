@@ -27,9 +27,6 @@
     <ClInclude Include="about_screen.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="game.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="screen_manager.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
@@ -116,6 +113,9 @@
     </ClInclude>
     <ClInclude Include="record_screen.h">
       <Filter>Файлы заголовков\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Файлы заголовков\Engine</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -211,5 +211,8 @@
     <None Include="config\engine_config.ini">
       <Filter>Файлы ресурсов</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\records.txt" />
   </ItemGroup>
 </Project>
