@@ -22,12 +22,12 @@
     <Filter Include="Файлы заголовков\Engine">
       <UniqueIdentifier>{e981cbfb-0b0e-4e87-8d2e-d5a4d41b1cee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Engine">
+      <UniqueIdentifier>{20bff3f2-bf05-40a2-9b98-3767d17987eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="about_screen.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="screen_manager.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="imgui\imconfig.h">
@@ -117,15 +117,15 @@
     <ClInclude Include="game.h">
       <Filter>Файлы заголовков\Engine</Filter>
     </ClInclude>
+    <ClInclude Include="screen_manager.h">
+      <Filter>Файлы заголовков\Screen</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="about_screen.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="game.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="screen_manager.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="imgui\imgui.cpp">
@@ -170,9 +170,6 @@
     <ClCompile Include="gui.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="init.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="level.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -199,6 +196,12 @@
     </ClCompile>
     <ClCompile Include="record_screen.cpp">
       <Filter>Исходные файлы\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="screen_manager.cpp">
+      <Filter>Исходные файлы\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

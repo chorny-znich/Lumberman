@@ -107,5 +107,5 @@ void Game::init()
 	buttonText.setString("Back");
 	dr::TextManager::load("back_button", buttonText);
 
-//	AudioPlayer::init();
+	AudioPlayer::init();
 }
